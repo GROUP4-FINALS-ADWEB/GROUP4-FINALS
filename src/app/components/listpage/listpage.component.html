@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+      <h2 class="h2">Petition List</h2>
+    </div>
+   
+    <div class="table-responsive">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <!-- <th scope="col">Id</th> -->
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone Number</th>
+            <th scope="col">Comments</th>
+            <th class="text-center" scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let petition of Petitions; let i = index">
+            <!-- <th scope="row">{{Petitions._id}}</th> -->
+            <td>{{petition.fname}}</td>
+            <td>{{petition.lname}}</td>
+            <td>{{petition.email}}</td>
+            <td>{{petition.pnumber}}</td>
+            <td>{{petition.comment}}</td>
+            <td class="text-center">
+              <button class="btn btn-sm btn-primary mx-2" routerLink="/edit-list/{{petition._id}}">Edit</button>
+              <button class="btn btn-sm btn-danger" (click)="delete(petition._id, i)">Delete</button>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>

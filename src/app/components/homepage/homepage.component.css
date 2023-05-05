@@ -1,0 +1,35 @@
+.top {
+    background-image: url("images/bg.jpg");
+    background-color: #cccccc;
+    font-family: 'Roboto Serif';
+    height: 100%;
+
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+
+#about {
+    font-family: 'Roboto Serif';
+}
+
+
+#vision{
+    background: #BCCEE4;
+
+}
+
+.bottom {
+    background-image: url("images/bg2.png");
+}
+.life {
+    text-align: right;
+    font-family: 'Roboto Serif';
+}
+.cards {
+    background: #BCCEE4;
+
+}
+

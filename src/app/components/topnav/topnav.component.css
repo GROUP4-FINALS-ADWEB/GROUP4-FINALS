@@ -1,0 +1,14 @@
+#header {
+    background-color: #456493;
+    font-family: Roboto Serif;
+    color: white;
+}
+
+#headName {
+    font-size: 2.5em;
+    font-family: Roboto Serif;
+}
+
+.links {
+    font-size: 180%;
+}

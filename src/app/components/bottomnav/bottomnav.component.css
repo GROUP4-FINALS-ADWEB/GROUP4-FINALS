@@ -1,0 +1,12 @@
+.bottomnav {
+    background: rgba(69, 100, 147, 0.78);
+}
+
+* {
+    font-family: 'Roboto Serif';
+}
+
+#headName {
+    font-size: 1.3em;
+    font-family: Roboto Serif;
+}

@@ -1,0 +1,28 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+* {
+    font-family: 'Roboto Serif';
+}
+
+
+
+
+
+
+
+.form {
+    background-color: #BCCEE4;
+    box-shadow: none;
+    border: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    
+}
+
+button {
+    background-color: rgba(20, 46, 112, 0.69);
+    border-radius: 0;
+    width: 200px;
+    height: 60px;
+    font-size: 1.1em;
+}
+  
