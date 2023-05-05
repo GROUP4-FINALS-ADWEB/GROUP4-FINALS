@@ -1,0 +1,63 @@
+
+
+<div class="text-bg-dark top py-5 ">
+    <div class="col-md-6 px-0 py-5 my-5 px-2">
+    <h1 class="display-4 py-5 my-3 px-4">““Clean Water and Sanitation” aims to campaign for safe drinking water and sanitation.”</h1>
+    </div> 
+</div>
+<div class="py-5 my-5">
+    <div class="container py-4 px-4 form pt-5">
+        
+
+        <div class="p-5 mb-4 bg-body-tertiary rounded-3 ">
+          <div class="container-fluid py-5">
+
+
+            <h1 class="display-5 fw-bold text-center pb-5">Online Petition for Clean Water and Sanitation</h1>
+            <div class="card form">
+              <div class="card-body">
+                <form [formGroup]="petitionForm" (ngSubmit)="onSubmit()">
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label for="firstName">First Name</label>
+                      <input formControlName="fname" type="text" class="form-control" id="firstName" placeholder="Enter first name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="lastName">Last Name</label>
+                      <input formControlName="lname" type="text" class="form-control" id="lastName" placeholder="Enter last name" required>
+                    </div>
+                  </div>
+                
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label for="email">Email</label>
+                      <input formControlName="email" type="email" class="form-control" id="email" placeholder="Enter email" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="phone">Phone Number</label>
+                      <input formControlName="pnumber" type="tel" class="form-control" id="phone" placeholder="Enter phone number" required>
+                    </div>
+                  </div>
+                
+                  <div class="row">
+                    <div class="col-md-12 mb-3">
+                      <label for="comments">Comments on my Petition (32 character max)</label>
+                      <textarea formControlName="comment" class="form-control" id="comments" placeholder="Enter comments" maxlength="32"></textarea>
+                    </div>
+                  </div>
+                
+                  <div class="row">
+                    <div class="col-md-12 mb-3 text-center">
+                      <button class="btn btn-primary btn-lg" type="submit">Sign Up</button>   
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        
+    </div>
+</div>

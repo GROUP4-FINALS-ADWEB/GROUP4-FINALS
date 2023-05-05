@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="row justify-content-center my-5">
+      <div class="col-sm-8 col-md-6">
+        <div class="card p-4">
+  
+          <form [formGroup]="loginForm" (ngSubmit)="login()"> 
+            <img class="mb-4 img-fluid mx-auto d-block" src="assets/logo.png" alt="" width="72" height="57">
+            <h1 class="h3 mb-3 fw-normal">Administrator Login</h1>
+  
+            <div class="form-floating">
+              <input class="form-control" type="text" id="username" formControlName="username" required>
+              <label for="username">Username</label>
+              
+            </div>
+  
+            <div class="form-floating">
+              <input class="form-control"type="password" id="password" formControlName="password"  required>
+              <label for="password">Password</label>
+              
+            </div>
+           
+  
+            <button class="w-100 btn btn-lg btn-primary my-4" type="submit">Login</button>
+  
+            <p class="mt-2 mb-3 text-body-secondary">© 2023</p>
+  
+          </form>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  

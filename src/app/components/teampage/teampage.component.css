@@ -1,0 +1,32 @@
+mat-card {
+    border: none;
+    box-shadow: none;
+  }
+  
+  mat-card img {
+    display: block;
+    margin: 0 auto;
+   
+  }
+.contact {
+    background-color: rgba(27, 81, 143, 0.59);
+}
+
+.contact-card {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: right;
+    border-radius: 0;
+  }
+  
+  .mat-card-content {
+    padding: 2rem;
+  }
+
+.mat-list-item h3, .mat-list-item p {
+  color: white;
+}
+
+.mv {
+    background-color: #D9D9D9;
+}
